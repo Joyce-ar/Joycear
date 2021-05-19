@@ -1,0 +1,99 @@
+html {
+    font-family: 'Assistant', sans-serif;
+}
+
+
+/* ---- reset ---- */
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    background-color: #000000;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 100;
+    /*background-position: 50% 50%;*/
+}
+
+
+/* ---- stats.js ---- */
+
+.count-particles {
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+    -webkit-user-select: none;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.logofont {
+    font-family: 'Julius Sans One', 'Assistant', sans-serif;
+}
+
+.lema {
+    color: white;
+    position: absolute;
+    bottom: 20%;
+    right: 30%;
+    z-index: 1000;
+    text-align: center;
+}
+
+.footer {
+    height: 50vh;
+}
+
+.articlew {
+    height: 90vh;
+    background: white;
+}
+
+.articleb {
+    height: 90vh;
+    background: black;
+}
+
+.start {
+    height: 90vh;
+    background-color: black;
+}
+
+header {
+    height: 10vh;
+    z-index: 10000;
+}
